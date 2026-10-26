@@ -1,0 +1,19 @@
+{
+  "users": [
+    { "id": 1, "name": "Soumya", "role": "admin", "city": "Kolhapur" },
+    { "id": 2, "name": "Aarav", "role": "dev", "city": "Pune" },
+    { "id": 3, "name": "Meera", "role": "designer", "city": "Mumbai" }
+  ],
+  "posts": [
+    { "id": 1, "title": "Shipping Prism AI", "userId": 1, "likes": 128, "tags": ["ai", "launch"] },
+    { "id": 2, "title": "Vibe coding 101", "userId": 2, "likes": 64, "tags": ["vibe"] },
+    { "id": 3, "title": "Design tokens that scale", "userId": 3, "likes": 92, "tags": ["design"] },
+    { "id": 4, "title": "Zero-dep CLIs in Node", "userId": 1, "likes": 210, "tags": ["node", "cli"] }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "body": "Huge, congrats" },
+    { "id": 2, "postId": 1, "body": "Open source?" },
+    { "id": 3, "postId": 4, "body": "parseArgs is underrated" }
+  ],
+  "profile": { "name": "Prism Protocol", "discord": "https://dc.gg/prismprotocol" }
+}

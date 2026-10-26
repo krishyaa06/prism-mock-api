@@ -1,0 +1,38 @@
+{
+  "name": "prism-mock-api",
+  "version": "1.0.0",
+  "description": "Zero-dependency mock REST server: point it at a JSON file and get CRUD routes, filters, search, sorting, pagination, relations, latency simulation and persistence.",
+  "bin": {
+    "mockapi": "bin/mockapi.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "examples"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "mock-api",
+    "rest-api",
+    "json-server",
+    "fake-api",
+    "prototyping",
+    "frontend",
+    "vibe-coding",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-mock-api.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-mock-api#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
